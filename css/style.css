@@ -1,0 +1,77 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	/* font-family: "Gilroy", sans-serif; */
+	line-height: 1;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+.block {
+    color: blue;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.div_2 {
+    background-color: burlywood;
+    opacity: 0.5;
+}
+.text {
+    background-color: crimson;
+    max-width: 300px;
+    margin: 20px;
+    border-top: 3px solid #000;
+    border-right: 12px dotted #0dde92;
+    border-bottom: 15px dashed #4199c8;
+    border-left: 9px double rgb(128, 74, 214);
+}
+.link {
+    display: inline-block;
+    background-color: darkgreen;
+    color: darkgrey;
+    font-size: large;
+    border: 10px solid #f80505;
+    padding: 15px;
+    box-shadow: 8px 8px 8px greenyellow;
+}
+.link:hover {
+    border: 15px solid transparent;
+}
